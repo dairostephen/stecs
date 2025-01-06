@@ -1,1 +1,1 @@
-# stecs
+The official website ostecs
