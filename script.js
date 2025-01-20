@@ -7,6 +7,7 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         msg.innerHTML = "Message sent successfully";
+        msg.style.color = "white";
         setTimeout(function(){
             msg.innerHTML = ""
         },5000)
