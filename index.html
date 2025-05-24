@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STECS Agency | Branding & Digital Solutions</title>
+    <title>STECS Agency – Branding & Digital Innovation</title>
+    <meta name="description" content="STECS is a branding agency helping businesses grow through strategic design, digital branding, and creative storytelling.CCTV cameras installations, cbt centre setup">
+    <meta name="keywords" content="branding agency, creative design, digital marketing, brand identity, web development, management system designs, system maintenance and configuration">
+    <meta name="author" content="STECS Agency">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html"><img src="/images/logo.png" alt="STECS Logo" class="logo" /></a>
+        <nav>
+        <ul id="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()"><i>☰</i></div>
+        </nav>
+    </div>
+  </header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h2>We Turn Ideas Into Iconic Brands</h2>
+      <p>Your trusted agency for branding, design, and digital growth.</p>
+      <a href="#contact" class="btn">Get a Free Brand Audit</a>
+    </div>
+    <div class="hero-image">
+      <img src="path-to-your-image.jpg" alt="Branding Agency Workspace" />
+    </div>
+  </div>
+</section>
+
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="card">Web Development</div>
+        <div class="card">System Manitenance</div>
+        <div class="card">CCTV Camera Installtions</div>
+        <div class="card">Brand Strategy</div>
+        <div class="card">Visual Identity</div>
+        <div class="card">CBT Centre Setup</div>
+        <div class="card">Marketing & SEO</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Featured Work</h2>
+      <div class="portfolio-grid">
+      <a href="smartschoolms.wuaze.com">
+        <div class="portfolio-item">
+          <img src="images/smartsms.png" alt="Project 1" />
+          <h3>M6 Smart School Management System</h3>
+          <p>Management System, Solutions to school management</p>
+        </div>
+      </a>
+      <a href="duec.com">
+        <div class="portfolio-item">
+          <img src="images/fashion.png" alt="Project 2" />
+          <h3>Fashion for Life</h3>
+          <p>Branding and Shopify ecommerce development.</p>
+        </div>
+      </a>
+      <a href="tradeinn.vercel.app">
+        <div class="portfolio-item">
+          <img src="images/project3.jpg" alt="Project 3" />
+          <h3>LegalSmart</h3>
+          <p>UI/UX + frontend development for legal SaaS.</p>
+        </div>
+      </a>
+    </div>
+    <div class="see-more">
+      <a href="portfolio.html" class="button">See more</a>
+    </div>
+  </section>
+
+  <section class="why-stecs">
+    <div class="container">
+      <h2>Why Choose STECS?</h2>
+      <ul>
+        <li>Tailored branding solutions</li>
+        <li>Proven track record</li>
+        <li>Passionate team</li>
+        <li>On-time delivery</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial">“STECS took our brand to the next level.” – Happy Client</div>
+      <div class="testimonial">“Amazing designs, professional team!” – CEO</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Let's Work Together</h2>
+      <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required />
+        <input type="email" name="Email" placeholder="Your Email" required />
+        <textarea name="Message" placeholder="Tell us about your project..." required></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div class="msg"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 STECS Agency. All rights reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fas fa-facebook">F</i></a>
+        <a href="#"><i class="fas fa-linkedin">L</i></a>
+        <a href="#"><i class="fas fa-twitter">X</i></a>
+        <a href="#"><i class="fas fa-instagram">I</i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- WhatsApp Sticky Button -->
+  <a href="https://wa.me/2348072519523" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat">
+  </a>
+  <!-- Newsletter Popup -->
+  <div id="newsletterPopup" class="popup-overlay">
+    <div class="popup-content">
+      <h3>🚀 Download Our Free AI Toolkit!</h3>
+      <p>Discover 10 powerful AI tools you can use to grow your business today.</p>
+      <form id="newsletterForm">
+        <input type="text" name="Name" placeholder="Your Name" required />
+        <input type="email" name="Email" placeholder="Your Email" required />
+        <button type="submit">Get My Free Toolkit</button>
+      </form>
+      <p class="popup-close" onclick="closePopup()">No thanks</p>
+    </div>
+  </div>
+  <!-- Floating CTA Bar (Mobile Only) -->
+  <div class="mobile-cta-bar">
+    <a href="tel:+2348075936607"><i>📞</i> Call</a>
+    <a href="https://wa.me/2348072519523" target="_blank"><i>💬</i> Chat</a>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

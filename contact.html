@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - STECS Agency</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+  <meta name="description" content="STECS is a branding agency helping businesses grow through strategic design, digital branding, and creative storytelling.CCTV cameras installations, cbt centre setup">
+  <meta name="keywords" content="branding agency, creative design, digital marketing, brand identity, web development, management system designs, system maintenance and configuration">
+  <meta name="author" content="STECS Agency">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html"><img src="/images/logo.png" alt="STECS Logo" class="logo" /></a>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()"><i>☰</i></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero small-hero">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Let’s build something amazing together. Reach out to STECS Agency.</p>
+    </div>
+  </section>
+
+  <section class="contact-section container">
+    <div class="contact-grid">
+      <div class="contact-form">
+        <form name="submit-to-google-sheet">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="Name" required />
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="Email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="6" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="msg"></div>
+      </div>
+      <div class="contact-info">
+        <h3>Our Office</h3>
+        <p>STECS Agency<br/>Lagos, Nigeria<br/>stecsinfo@gmail.com<br/>+234 807 593 6607</p>
+        <h4>Follow Us</h4>
+        <p class="socials">
+          <a href="#"><i class="fas fa-facebook">F</i></a>
+          <a href="#"><i class="fas fa-linkedin">L</i></a>
+          <a href="#"><i class="fas fa-twitter">X</i></a>
+          <a href="#"><i class="fas fa-instagram">I</i></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container container">
+      <p>&copy; 2025 STECS Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Sticky Button -->
+  <a href="https://wa.me/2348072519523" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat">
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
